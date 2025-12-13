@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premium Creative Landing Page</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Arial', sans-serif; background: #f2f4f8; }
+
+    /* HERO SECTION */
+    .hero {
+      height: 100vh;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .hero-content{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      max-width: 1200px;
+      align-items: center;
+    }
+    .hero-text{ text-align: left; }
+    .hero-text h1 { font-size: 48px; margin-bottom: 20px; }
+    .hero-text p { font-size: 20px; max-width: 600px; }
+    .hero-text a {
+      margin-top: 25px;
+      display: inline-block;
+      background: #fff;
+      color: #2575fc;
+      padding: 14px 35px;
+      font-size: 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .hero-text a:hover { background: #e6e6e6; }
+
+    .hero-image img{
+      width: 100%;
+      max-width: 450px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float{
+      0%{ transform: translateY(0); }
+      50%{ transform: translateY(-10px); }
+      100%{ transform: translateY(0); }
+    }
+
+    @media(max-width:768px){
+      .hero-content{ grid-template-columns: 1fr; text-align:center; }
+      .hero-text{ text-align:center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Boost Your Energy & Focus Naturally</h1>
+        <p>প্রাকৃতিক উপাদানে তৈরি একটি শক্তিশালী ফর্মুলা যা আপনার এনার্জি, ফোকাস ও প্রোডাক্টিভিটি বাড়াতে সাহায্য করে।</p>
+        <p style="margin:12px 0; font-size:16px;">⭐ Rated 4.8/5 by 10,000+ users</p>
+        <a href="https://url-shortener.me/33M7" target="_blank">🔥 Claim Your Offer Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="image.jpg" alt="Premium Product" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <h2>Why This Works</h2>
+    <div class="feature-boxes">
+      <div class="feature">⚡ Instant Energy Boost</div>
+      <div class="feature">🧠 Improves Focus & Clarity</div>
+      <div class="feature">🌿 100% Natural Formula</div>
+      <div class="feature">🏆 Trusted Worldwide</div>
+    </div>
+  </section>
+
+  <!-- ABOUT / TRUST -->
+  <section class="about">
+    <h2>Is This Right For You?</h2>
+    <p>আপনি যদি প্রতিদিন ক্লান্ত, কম এনার্জি বা কম ফোকাস অনুভব করেন, তাহলে এই প্রোডাক্টটি আপনার জন্য। হাজারো মানুষ ইতিমধ্যে এটি ব্যবহার করে ফল পাচ্ছেন।</p>
+    <p style="margin-top:10px; font-weight:bold;">✔ Safe • ✔ Effective • ✔ Proven</p>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Limited Time Offer ⏰</h2>
+    <p>এই বিশেষ অফারটি যে কোনো সময় শেষ হয়ে যেতে পারে</p>
+    <a href="https://url-shortener.me/33M7" target="_blank">👉 Get Instant Access</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Creative10S — Affiliate Landing Page
+  </footer>
+
+</body>
+</html>
