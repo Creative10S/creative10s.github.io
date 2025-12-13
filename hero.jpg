@@ -9,20 +9,16 @@
     body { font-family: 'Arial', sans-serif; background: #f2f4f8; }
 
     /* HERO SECTION */
-.hero {
-  height: 100vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('hero.jpg') center/cover no-repeat;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  animation: fadeIn 1.5s ease-in-out;
-}
+    .hero {
+      height: 100vh;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
     .hero-content{
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -70,41 +66,51 @@
 <body>
 
   <!-- HERO SECTION -->
+  <!-- HERO SECTION -->
   <section class="hero">
     <div class="hero-content">
       <div class="hero-text">
-        <h1>Creative Premium Landing Page</h1>
-        <p>একটি আধুনিক, সুন্দর এবং আকর্ষণীয় ল্যান্ডিং পেজ যেখানে আপনার লিংকে ভিজিটর যেতে উৎসাহিত হবে।</p>
-        <a href="https://url-shortener.me/33M7" target="_blank">Visit My Link</a>
+        <h1>Boost Your Energy & Focus Naturally</h1>
+        <p>প্রাকৃতিক উপাদানে তৈরি একটি প্রিমিয়াম ফাংশনাল ড্রিংক যা আপনার ফোকাস, এনার্জি এবং প্রোডাক্টিভিটি বাড়াতে সাহায্য করে।</p>
+        <ul style="margin:20px 0; line-height:1.8;">
+          <li>✔ 100% Natural Ingredients</li>
+          <li>✔ No Side Effects</li>
+          <li>✔ Trusted by Thousands</li>
+        </ul>
+        <a href="https://url-shortener.me/33M7" target="_blank">🔥 Claim Your Offer Now</a>
       </div>
       <div class="hero-image">
-        <!-- image file repo-তে আপলোড করে নাম দিন image.jpg -->
-        <img src="image.jpg" alt="Product Image" />
+        <img src="image.jpg" alt="Premium Product" />
       </div>
     </div>
   </section>
 
   <!-- FEATURES -->
+  <!-- FEATURES -->
   <section class="features">
-    <h2>Our Features</h2>
+    <h2>Why People Love This</h2>
     <div class="feature-boxes">
-      <div class="feature">⭐ Ultra Modern Design</div>
-      <div class="feature">⚡ Fast & Responsive</div>
-      <div class="feature">🎯 High Conversion Focused</div>
-      <div class="feature">📱 Mobile Friendly Layout</div>
+      <div class="feature">⚡ Instant Energy Boost</div>
+      <div class="feature">🧠 Improves Focus & Clarity</div>
+      <div class="feature">🌿 All-Natural Formula</div>
+      <div class="feature">🏆 High Customer Satisfaction</div>
     </div>
   </section>
 
   <!-- ABOUT -->
+  <!-- ABOUT / TRUST -->
   <section class="about">
-    <h2>About This Page</h2>
-    <p>এই ল্যান্ডিং পেজটি দর্শকদের আকর্ষণ করার জন্য ডিজাইন করা হয়েছে যাতে তারা সহজেই আপনার মূল CTA বাটনে ক্লিক করে। সুন্দর লেআউট, অ্যানিমেশন এবং পরিষ্কার UI পুরো অভিজ্ঞতাকে উন্নত করে।</p>
+    <h2>Is This Right For You?</h2>
+    <p>আপনি যদি ক্লান্তি, কম ফোকাস বা কম এনার্জিতে ভুগে থাকেন, তাহলে এই প্রোডাক্টটি আপনার জন্য। হাজারো মানুষ ইতিমধ্যে এটি ব্যবহার করে উপকার পাচ্ছেন।</p>
+    <p style="margin-top:15px; font-weight:bold;">⭐ Rated 4.8/5 by real users</p>
   </section>
 
   <!-- CALL TO ACTION -->
+  <!-- CALL TO ACTION -->
   <section class="cta">
-    <h2>Ready to Explore?</h2>
-    <a href="https://url-shortener.me/33M7" target="_blank">Click Here</a>
+    <h2>Limited Time Offer ⏰</h2>
+    <p style="margin:15px 0;">আজই অর্ডার করুন এবং বিশেষ ছাড় উপভোগ করুন</p>
+    <a href="https://url-shortener.me/33M7" target="_blank">👉 Get Instant Access</a>
   </section>
 
   <!-- FOOTER -->
